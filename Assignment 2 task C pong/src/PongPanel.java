@@ -168,14 +168,14 @@ public class PongPanel extends JPanel implements ActionListener, KeyListener {
 	@Override
 	public void keyPressed(KeyEvent event) {
 		if(event.getKeyCode() == KeyEvent.VK_W) {
-			paddle1.setYVelocity(-1);
+			paddle1.setYVelocity(-4);
 		} else if(event.getKeyCode() == KeyEvent.VK_S) {
-			paddle1.setYVelocity(1);
+			paddle1.setYVelocity(4);
 		}
 		if(event.getKeyCode() == KeyEvent.VK_UP) {
-			paddle2.setYVelocity(-1);
+			paddle2.setYVelocity(-4);
 		} else if(event.getKeyCode() == KeyEvent.VK_DOWN) {
-			paddle2.setYVelocity(1);
+			paddle2.setYVelocity(4);
 		}
 	}
 
